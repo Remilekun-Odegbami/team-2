@@ -29,7 +29,7 @@ function Header() {
           Sign Up
         </Nav.Link>
       </Nav>
-      <Form className="d-flex ml-5">
+      <Form className="d-flex">
         <FormControl
           type="search"
           placeholder="Search"

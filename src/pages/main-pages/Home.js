@@ -13,16 +13,16 @@ export default function Home() {
                 <p className="text">STEM fields are still viewed as predominantly male-dominated. According to an MIT study, young individuals are initially interested in STEM areas, but as they get older, they lose interest due to a lack of contact and inspiring female role models and mentors in STEM fields. </p>
                 <p className="text">For tech companies, diversity is critical because it allows them to build better products. More imagination leads to innovation and high-quality products when a company's staff is diverse. Please join us to bridge the gap in tech. </p>
                     <div className="home-btn d-flex">
-                        <button className='home-btn1 btn-block btn m-1'>Get Started Now</button>
-                        <button className='home-btn2 btn-block btn m-1'>Learn More</button>                        
+                        <button className='home-btn1 btn-block btn m-1'> <a href='#communities'>Get Started Now</a></button>
+                        <button className='home-btn2 btn-block btn m-1'>  <a href="/about">Learn More</a></button>                        
                     </div>
                 </div>
             <div className="col-md-4 col-sm-12 mt-sm-5">
-            <img className="img-fluid mb-4" src={landingImg} alt="About Us" />
+            <img className="home-img mb-4" src={landingImg} alt="About Us" />
             </div>
         </div>
     </section>
-    <section className="section2 communities">
+    <section className="section2 communities" id='communities'>
             <div className="container">
                 <div className="row">
                     <div className="title">

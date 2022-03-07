@@ -6,7 +6,7 @@ export default function Signup() {
   return (
  <div className="signup-page">
         <div className="signup-form">
-            <form className="register-form">
+            <form className="signup-form">
             <input type="text" placeholder="first name" required/>
             <input type="text" placeholder="last name" required/>
             <input type="password" placeholder="password" required/>
