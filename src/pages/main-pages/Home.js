@@ -5,7 +5,7 @@ export default function Home() {
   return (
       <>
     <section className="container section1">
-        <div classNameName="row">
+        <div className="row">
             <div className="col-md-8 mt-4 col-sm-12 home-text">
                 <h2 className="sub-header"> Find latest</h2>
                 <h1 className="main-header"> Tech Opportunities</h1>
