@@ -5,7 +5,7 @@ import logo from '../Media/digeratixx.png';
 
 function Header() {
     return (
-<Navbar expand="lg">
+<Navbar expand="lg" className='navigation'>
   <Container fluid>
     <Navbar.Brand as={Link} to="/"> <img class="img-fluid w-50" src={logo} alt="Logo" /> </Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -17,19 +17,19 @@ function Header() {
       >
         <Nav.Link as={Link} to="/about">About</Nav.Link>
         
-        <NavDropdown title="Communities" id="navbarScrollingDropdown">
+        {/* <NavDropdown title="Communities" id="navbarScrollingDropdown">
           <NavDropdown.Item href="#action3">Front End</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Backend</NavDropdown.Item>
           <NavDropdown.Divider />
-        </NavDropdown>
+        </NavDropdown> */}
         <Nav.Link as={Link} to="/login">
           Login
         </Nav.Link>
-        <Nav.Link as={Link} to="/signup">
+        <Nav.Link as={Link} to="/signup" className="mr-5">
           Sign Up
         </Nav.Link>
       </Nav>
-      <Form className="d-flex">
+      <Form className="d-flex ml-5">
         <FormControl
           type="search"
           placeholder="Search"

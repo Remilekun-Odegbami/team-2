@@ -2,8 +2,20 @@ import React from 'react'
 
 export default function Blog() {
   return (
-    <div>
-        <h1>I AM BLOG!!!</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, odit repellendus. Velit cumque nihil exercitationem reprehenderit a, quidem aspernatur odio explicabo. Provident dolor harum officiis numquam molestiae tempora unde, esse dicta sed at adipisci doloremque minima repellat delectus nam incidunt odio repudiandae expedita sunt enim officia maiores consequuntur? Exercitationem ut consequatur adipisci iure nemo laudantium suscipit repellat! Neque, iure id a cumque repudiandae magnam sunt animi, tenetur quos omnis eos nisi ipsa est quo. Nobis exercitationem sapiente quis, ex, maiores veniam neque dolor quas placeat nihil, modi officiis assumenda vitae. Doloribus saepe pariatur, error sit cumque tempore possimus harum ex facilis est eligendi odit, omnis magni quod. Accusamus earum quas, nihil a dolore est? Voluptates animi quo nemo quis perferendis aspernatur ipsam dolores. Illo laboriosam corrupti quo provident ipsa aliquid dicta dolor dolorum ipsum eligendi, deleniti ducimus. Quia accusantium unde dolor quaerat sunt modi! Consequatur autem vitae eius omnis voluptatum et officiis at. Eveniet distinctio culpa repudiandae, quibusdam, quis in, laudantium dolorum explicabo velit totam dolorem provident voluptatibus saepe et modi necessitatibus voluptas quos excepturi nihil! Fuga quas veritatis eligendi dolorem laudantium! Recusandae magnam laudantium deserunt saepe quam, perferendis molestiae nesciunt atque, minima temporibus enim, neque voluptate laborum consequatur sequi?</div>
+        <div className="container blog">
+            <div className="row">
+              <div className="col-md-6">
+                <h1 className='text-capitalize'>List of Hackhaton and Tech events</h1>
+                <p className="text-uppercase">1. <a href='https://hackaholics.wemabank.com/'>WEMA BANK HACKATHON LINK </a> </p>
+                <p className="text-uppercase">2. <a href='https://dfslab.net/stellar-blockchain-bootcamp/'>DFS BLOCKCHAIN BOOTCAMP </a> </p>
+                <p className="text-uppercase">3. <a href='https://forms.office.com/Pages/ResponsePage.aspx?id=2wYhaHuaNUu5oIhHM4XWz4xd7eFcg_pOhOV9L5YSnHtUQVZERzBJRzNJNEQ1RzlaNUY2NjNZTUpFMy4u'>TECH4DEV LINK </a> </p>
+                <p className="text-uppercase">4. <a href='https://www.microsoft.com/en-us/leap/iwd2022/register/'>MICROSOFT INTERNATIONAL WOMEN’S DAY HACKATHON 2022 </a> </p>
+                </div>
+
+                <div className="col-md-6">
+                  <img src="https://eventsbase.co.uk/wp-content/uploads/2020/09/event-tech-image.jpg" alt="Tech Event" className='img-fluid' />
+                  </div>
+            </div>
+          </div>
   )
 }

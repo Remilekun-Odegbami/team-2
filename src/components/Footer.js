@@ -7,7 +7,7 @@ function Footer() {
     <div className="container">
       <div className="row">
         <div className="col-sm-12 text-sm-left text-center">
-          <p className="mb-0 text-lighten">Copyright 2022 © Digerattixx</p>
+          <p className="mb-0 text-lighten text-center">Copyright 2022 © Digerattixx</p>
         </div>
     </div>
     </div>

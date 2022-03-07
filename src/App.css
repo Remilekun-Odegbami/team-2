@@ -13,6 +13,10 @@ a{
   color: inherit;
 }
 
+.navigation {
+  white-space: nowrap;
+}
+
 /* Home Page */
 .section1 {
   height: 100vh;
@@ -44,13 +48,26 @@ a{
   font-size: 1.2em;
 }
 
+.section1 .home-btn {
+  max-width: fit-content;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+
 .section1 .home-btn .home-btn1 {
   background-color: #5D16EA;
   color: white;
 }
+.section1 .home-btn .home-btn1:hover {
+  background-color: #500fd3;
+}
 .section1 .home-btn .home-btn2 {
   border: 1px solid #F7ADAF;
   color: #F7ADAF;
+}
+.section1 .home-btn .home-btn2:hover {
+  border: 1px solid #db9698;
+ color: #500fd3;
 }
 
 .communities {
@@ -123,11 +140,17 @@ a{
   font-size: 12px;
 }
 
-.login-form .message a, .signup-form .message a
+.login-form .message a, .signup-form .message a, .about a, .blog a
  {
   color: #F7ADAF;
   text-decoration: none;
 }
+.login-form .message a:hover, .signup-form .message a:hover, .about a:hover, .blog a:hover
+ {
+  color: #500fd3;
+  text-decoration: none;
+}
+
 
 /* Error Page */
 
@@ -230,4 +253,8 @@ a{
 .about .h1 {
   color: #5D16EA;
   margin-top: 5%;
+}
+
+.blog {
+  margin-bottom: 15%;
 }
