@@ -7,11 +7,11 @@ export default function Signup() {
  <div className="signup-page">
         <div className="signup-form">
             <form className="register-form">
-            <input type="text" placeholder="first name"/>
-            <input type="text" placeholder="last name"/>
-            <input type="password" placeholder="password"/>
-            <input type="password" placeholder="confirm password"/>
-            <input type="text" placeholder="email address"/>
+            <input type="text" placeholder="first name" required/>
+            <input type="text" placeholder="last name" required/>
+            <input type="password" placeholder="password" required/>
+            <input type="password" placeholder="confirm password" required/>
+            <input type="text" placeholder="email address" required/>
             <button onClick={() => {
         navigate('/blog')                
             }}>create</button>

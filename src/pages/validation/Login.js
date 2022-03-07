@@ -8,8 +8,8 @@ export default function Login() {
         <div className="login-page">
         <div className="login-form">
             <form className="login-form">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="username" required/>
+            <input type="password" placeholder="password" required/>
             <button onClick={() => {
         navigate('/blog')                
             }}>login</button>
